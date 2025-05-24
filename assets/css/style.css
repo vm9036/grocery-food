@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 255, 255, 1);
+}
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* Extra Large Devices (Desktops, 1200px and above) */
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* border starts*/
+
+.border {
+    border-radius: 60px;
+}
+
+/* border ends */
+
+/* header starts */
+
+.header_main {
+    margin-top: 32px;
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav_menu ul li a {
+    text-decoration: none;
+    color: rgba(77, 77, 77, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.nav_menu ul li .home {
+    font-weight: 600;
+    color: rgba(245, 82, 83, 1);
+}
+
+.search_bar {
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 1);
+    padding: 19px 20px;
+}
+
+.search_bar .fa-magnifying-glass {
+    color: rgba(139, 139, 139, 1);
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.search_bar input {
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+
+.search_bar input::placeholder {
+    color: rgba(35, 35, 35, 1);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.search_bar .border_left {
+    border-left: 1.5px solid rgba(242, 242, 242, 1);
+    margin-right: 16px;
+}
+
+.search_bar button {
+    border: none;
+    background: transparent;
+}
+
+.search_bar button i {
+    font-size: 22px;
+    color: rgba(60, 55, 55, 1);
+}
+
+/* header ends */
+
+/* main starts */
+
+/* hero section starts */
+
+.hero_sec {
+    margin-top: 39px;
+}
+
+.hero_main_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+}
+
+.hero_content {
+    flex: 1;
+}
+
+.hero_content_btn button {
+    padding: 10px 20px;
+    background: rgba(253, 236, 236, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    border: none;
+    border-radius: 23px;
+    color: rgba(245, 85, 86, 1);
+}
+
+.hero_content button img{
+    width: 26px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.hero_heading_contnet h2{
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 88px;
+    
+}
+
+
+.hero_image {
+    flex: 1;
+}
+
+.hero_image img {
+    width: 100%;
+}
+
+/* hero section ends */
+
+/* main ends */
