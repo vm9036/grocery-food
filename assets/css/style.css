@@ -138,19 +138,57 @@ body {
     color: rgba(245, 85, 86, 1);
 }
 
-.hero_content button img{
+.hero_content button img {
     width: 26px;
     height: 24px;
     vertical-align: middle;
 }
 
-.hero_heading_contnet h2{
+.hero_heading_contnet h2 {
     font-weight: 700;
-    font-size: 74px;
+    font-size: 70px;
     line-height: 88px;
-    
 }
 
+.hero_heading_contnet span {
+    color: rgba(245, 71, 72, 1);
+}
+
+.hero_heading_contnet p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5%;
+    color: rgba(103, 103, 103, 1);
+}
+
+.hero_btns {
+    margin-top: 60px;
+}
+
+.hero_order {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    background: rgba(248, 96, 97, 1);
+    border-radius: 12px;
+    padding: 25px 40px;  
+    border: none; 
+    color: rgba(255, 250, 250, 1);
+ 
+}
+
+.hero_process {
+    margin-left: 34px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    background: rgba(255, 250, 250, 1);
+    border-radius: 12px;
+    padding: 25px 40px;  
+    border: none; 
+    color: rgba(54, 54, 54, 1);
+}
 
 .hero_image {
     flex: 1;
