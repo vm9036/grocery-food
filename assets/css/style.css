@@ -105,6 +105,13 @@ body {
     color: rgba(60, 55, 55, 1);
 }
 
+/* Hamburger Icon (Hidden on Desktop) */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 /* header ends */
 
 /* main starts */
