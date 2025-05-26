@@ -69,7 +69,6 @@
 
     .why_choose_us_img img{
         width: 100%;
-        height: auto;
     }
 
     .why_choose_us_content{
@@ -83,7 +82,31 @@
 
     /* why choose us section ends */
 
-    
+    /* home delivery section starts */
+
+    .home_delivery_main_sec{
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .home_delivery_img img{
+        width: 100%;
+    }
+
+    .home_delivery_content{
+        text-align: center;
+    }
+
+    .home_delivery_content h2 {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .home_delivery_content p{
+        width: 100%;
+    }
+
+    /* home delivery section ends */
 }
 
 
