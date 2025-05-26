@@ -20,6 +20,11 @@
     }
 
     /* hero section starts */
+
+    .hero_sec {
+        margin-bottom: 60px;
+    }
+
     .hero_main_sec {
         flex-direction: column-reverse;
     }
@@ -29,7 +34,9 @@
     }
 
     .hero_heading_contnet h2 {
-        font-size: 45px;
+        font-size: 35px;
+        line-height: 60px;
+        margin-bottom: 8px;
     }
 
     .hero_btns .hero_process {
@@ -62,16 +69,16 @@
         padding: 40px 0;
     }
 
-    .why_choose_us_main_sec{
+    .why_choose_us_main_sec {
         flex-direction: column;
         gap: 30px;
     }
 
-    .why_choose_us_img img{
+    .why_choose_us_img img {
         width: 100%;
     }
 
-    .why_choose_us_content{
+    .why_choose_us_content {
         text-align: center;
     }
 
@@ -84,16 +91,16 @@
 
     /* home delivery section starts */
 
-    .home_delivery_main_sec{
+    .home_delivery_main_sec {
         flex-direction: column-reverse;
         gap: 40px;
     }
 
-    .home_delivery_img img{
+    .home_delivery_img img {
         width: 100%;
     }
 
-    .home_delivery_content{
+    .home_delivery_content {
         text-align: center;
     }
 
@@ -102,11 +109,49 @@
         width: 100%;
     }
 
-    .home_delivery_content p{
+    .home_delivery_content p {
         width: 100%;
     }
 
     /* home delivery section ends */
+
+    /* download appp section starts */
+
+    .download_app_sec {
+        padding: 50px 0;
+    }
+
+    .download_app_main_sec {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .download_app_img img {
+        width: 100%;
+    }
+
+    .download_app_content {
+        text-align: center;
+    }
+
+    .download_app_content h2 {
+        font-size: 30px;
+    }
+
+    .download_app_content p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .download_btns {
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    /* download appp section ends */
+
+
+
 }
 
 

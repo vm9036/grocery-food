@@ -167,7 +167,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    letter-spacing: 0.5%;
     color: rgba(103, 103, 103, 1);
 }
 
@@ -330,7 +329,6 @@ body {
 /* home delivery section starts */
 
 .home_delivery_sec {
-    margin-top: 50px;
     padding: 50px 0;
 }
 
@@ -380,7 +378,84 @@ body {
     color: rgba(248, 96, 97, 1);
     margin-top: 50px;
 }
+
 /* home delivery section ends */
 
+/* download appp section starts */
+
+.download_app_sec {
+    padding: 100px 0;
+    background: rgba(254, 245, 245, 1);
+}
+
+.download_app_main_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download_app_img {
+    flex: 1;
+}
+
+.download_app_content {
+    flex: 1;
+}
+
+.download_app_content h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: rgba(245, 71, 72, 1);
+}
+
+.download_app_content h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: rgba(46, 46, 46, 1);
+    margin-top: 8px;
+}
+
+.download_app_content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(103, 103, 103, 1);
+    width: 466px;
+    margin-top: 22px;
+}
+
+.download_btns {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.download_btns button {
+    border: 1.5px solid rgba(238, 220, 220, 1);
+    border-radius: 12px;
+    padding: 18px 20px;
+    background: transparent;
+}
+
+.download_btns button img {
+    vertical-align: middle;
+}
+
+.download_btns button span {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(46, 46, 46, 1);
+    vertical-align: middle;
+}
+
+/* download appp section ends */
 
 /* main ends */
