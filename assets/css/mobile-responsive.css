@@ -151,7 +151,44 @@
     /* download appp section ends */
 
 
+    /* footer section starts */
+    .footer_main {
+        padding: 40px 0;
+        justify-content: space-evenly;
+        align-items: center;
+        row-gap: 30px;
+        column-gap: 15px;
+        flex-direction: column;
+    }
 
+    .footer_logo_sec {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .footer_content {
+        text-align: center;
+    }
+
+    .footer_company_links{
+        text-align: center;
+    }
+
+    .footer_service_links {
+        text-align: center;
+    }
+    
+
+    /* copyright starts */
+
+    .copyright_main{
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+    }
+
+    /* copyright ends */
 }
 
 
