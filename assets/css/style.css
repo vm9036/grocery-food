@@ -21,6 +21,7 @@ body {
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1140px;
+        margin: 0 auto;
     }
 }
 
@@ -120,6 +121,7 @@ body {
 
 .hero_sec {
     margin-top: 39px;
+    margin-bottom: 140px;
 }
 
 .hero_main_sec {
@@ -179,10 +181,10 @@ body {
     line-height: 20px;
     background: rgba(248, 96, 97, 1);
     border-radius: 12px;
-    padding: 25px 40px;  
-    border: none; 
+    padding: 25px 40px;
+    border: none;
     color: rgba(255, 250, 250, 1);
- 
+
 }
 
 .hero_process {
@@ -192,8 +194,8 @@ body {
     line-height: 20px;
     background: rgba(255, 250, 250, 1);
     border-radius: 12px;
-    padding: 25px 40px;  
-    border: none; 
+    padding: 25px 40px;
+    border: none;
     color: rgba(54, 54, 54, 1);
 }
 
@@ -206,5 +208,78 @@ body {
 }
 
 /* hero section ends */
+
+/* what we serve section starts */
+.what_we_serve_sec {
+    background: rgba(254, 245, 245, 1);
+    padding: 100px 0;
+}
+
+.what_we_serve_content {
+    text-align: center;
+}
+
+.what_we_serve_content p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    color: rgba(245, 71, 72, 1);
+}
+
+.what_we_serve_content h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: rgba(46, 46, 46, 1);
+
+}
+
+.what_we_serve_cards {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.what_we_serve_card {
+    width: 300px;
+    height: 310px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.what_we_serve_card h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(46, 46, 46, 1);
+}
+
+.what_we_serve_card p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+
+    color: rgba(103, 103, 103, 1);
+    margin-top: 14px;
+    padding: 0 20px;
+}
+
+
+/* whatwesere section ends */
+
+
 
 /* main ends */
