@@ -55,6 +55,35 @@
     }
 
     /* what we serve section ends */
+
+    /* why choose us section starts */
+
+    .why_choose_us_sec {
+        padding: 40px 0;
+    }
+
+    .why_choose_us_main_sec{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .why_choose_us_img img{
+        width: 100%;
+        height: auto;
+    }
+
+    .why_choose_us_content{
+        text-align: center;
+    }
+
+    .why_choose_us_content h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    /* why choose us section ends */
+
+    
 }
 
 

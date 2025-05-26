@@ -219,12 +219,12 @@ body {
     text-align: center;
 }
 
-.what_we_serve_content p {
+.what_we_serve_content h3 {
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
-    letter-spacing: 1%;
     color: rgba(245, 71, 72, 1);
+    margin-bottom: 8px;
 }
 
 .what_we_serve_content h2 {
@@ -233,7 +233,6 @@ body {
     line-height: 54px;
     text-transform: capitalize;
     color: rgba(46, 46, 46, 1);
-
 }
 
 .what_we_serve_cards {
@@ -271,15 +270,64 @@ body {
     font-size: 14px;
     line-height: 25px;
     text-align: center;
-
     color: rgba(103, 103, 103, 1);
     margin-top: 14px;
     padding: 0 20px;
 }
 
+/* what we serve section ends */
 
-/* whatwesere section ends */
+/* why choose us section starts */
+.why_choose_us_sec {
+    padding: 80px 0;
+}
 
+.why_choose_us_main_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why_choose_us_content h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(3, 166, 107, 1);
+}
+
+.why_choose_us_content h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: rgba(46, 46, 46, 1);
+    width: 394px;
+    margin-top: 8px;
+}
+
+.why_choose_us_content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(103, 103, 103, 1);
+    margin-top: 22px;
+}
+
+.why_choose_us_content button {
+    padding: 25px 40px;
+    background: rgba(248, 96, 97, 1);
+    border: none;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(255, 250, 250, 1);
+    margin-top: 50px;
+}
+
+/* why choose us section ends */
+
+/*  */
 
 
 /* main ends */
