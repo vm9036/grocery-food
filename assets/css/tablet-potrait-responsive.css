@@ -1,9 +1,11 @@
+/* Tablet Portrait (768px to 991px) */
+
 @media screen and (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
     .container {
         width: 100%;
         max-width: 720px;
-        margin: 0 auto;
         padding: 0 15px;
+        margin: 0 auto;
     }
 
     /* header starts */
@@ -128,3 +130,5 @@
     /* footer ends */
 
 }
+
+

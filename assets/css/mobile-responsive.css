@@ -3,6 +3,7 @@
     .container {
         width: 100%;
         padding: 0 15px;
+        margin: 0 auto;
     }
 
     /* Show Hamburger Icon, Hide Navigation Menu by Default */
@@ -153,11 +154,9 @@
 
     /* footer section starts */
     .footer_main {
-        padding: 40px 0;
-        justify-content: space-evenly;
+        padding: 40px 20px;
         align-items: center;
         row-gap: 30px;
-        column-gap: 15px;
         flex-direction: column;
     }
 
@@ -170,18 +169,25 @@
         text-align: center;
     }
 
-    .footer_company_links{
+    .footer_company_links {
         text-align: center;
     }
 
     .footer_service_links {
         text-align: center;
     }
-    
+
+    .footer_logo_sec p {
+        width: 100%;
+    }
+
+    .footer_content p {
+        width: 100%;
+    }
 
     /* copyright starts */
 
-    .copyright_main{
+    .copyright_main {
         flex-direction: column;
         justify-content: center;
         gap: 30px;

@@ -11,15 +11,16 @@ body {
     background: rgba(255, 255, 255, 1);
 }
 
-.container {
+/* .container {
     width: 100%;
     max-width: 1320px;
     margin: 0 auto;
-}
+} */
 
 /* Extra Large Devices (Desktops, 1200px and above) */
 @media screen and (min-width: 1200px) {
     .container {
+        width: 100%;
         max-width: 1140px;
         margin: 0 auto;
     }

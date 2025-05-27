@@ -1,0 +1,82 @@
+/* Tablet Landscape (992px to 1199px) */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) and (orientation: landscape) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+
+    /* hero section starts */
+
+    .hero_main_sec {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .hero_content {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .hero_heading_contnet p {
+        font-size: 24px;
+    }
+
+    /* hero section ends */
+
+    /* why choose us section starts */
+
+    .why_choose_us_sec {
+        padding: 40px 0;
+    }
+
+    .why_choose_us_main_sec {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .why_choose_us_content {
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+    .why_choose_us_content h2 {
+        width: 100%;
+    }
+
+    .why_choose_us_content p {
+        font-size: 24px;
+    }
+
+    .why_choose_us_img img {
+        width: 100%;
+    }
+
+    /* why choose us section ends */
+
+    /* home delivery section starts */
+
+    .home_delivery_main_sec {
+        flex-direction: column-reverse;
+    }
+
+    .home_delivery_content {
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+    .home_delivery_content h2 {
+        width: 100%;
+    }
+
+    .home_delivery_content p {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    /* home delivery section ends */
+
+}
