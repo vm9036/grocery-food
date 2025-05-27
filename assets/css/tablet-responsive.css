@@ -1,0 +1,130 @@
+@media screen and (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
+    .container {
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    /* header starts */
+
+    .nav_menu {
+        display: none;
+    }
+
+    /* header ends */
+
+    /* hero section starts */
+
+    .hero_main_sec {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .hero_content {
+        text-align: center;
+    }
+
+    .hero_heading_contnet p {
+        font-size: 21px;
+    }
+
+    /* hero section ends */
+
+    /* why choose us section starts */
+    .why_choose_us_main_sec {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .why_choose_us_content {
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+    .why_choose_us_content h2 {
+        width: 100%;
+    }
+
+    .why_choose_us_content p {
+        font-size: 21px;
+    }
+
+    .why_choose_us_img img {
+        width: 100%;
+    }
+
+    /* why choose us section ends */
+
+    /* home delivery section starts */
+
+    .home_delivery_main_sec {
+        flex-direction: column-reverse;
+    }
+
+    .home_delivery_content {
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+    .home_delivery_content h2 {
+        width: 100%;
+    }
+
+    .home_delivery_content p {
+        width: 100%;
+        font-size: 21px;
+    }
+
+    /* home delivery section ends */
+
+
+    /* download appp section starts */
+
+    .download_app_main_sec {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .download_app_content {
+        text-align: center;
+        padding-inline: 20px;
+    }
+
+    .download_app_content p {
+        width: 100%;
+        font-size: 21px;
+    }
+
+    .download_btns {
+        justify-content: center;
+    }
+
+    /* download appp section ends */
+
+    /* footer starts */
+
+    .footer_main {
+        padding: 50px 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        row-gap: 30px;
+        align-items: center;
+    }
+
+    .footer_logo_sec {
+        margin-right: 0;
+    }
+
+    /* copyright starts */
+
+    .copyright_main{
+        justify-content: space-around;
+    }
+
+    /* copyright ends */
+
+    /* footer ends */
+
+}
